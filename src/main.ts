@@ -30,7 +30,7 @@ async function bootstrap() {
   console.log(
     '\n\x1b[42m%s\x1b[0m\x1b[32m %s\x1b[0m\n',
     ' Swagger ',
-    `http://localhost:${process.env.PORT ?? 5000}/api 🚀`,
+    `http://localhost:${process.env.PORT ?? 3000}/api 🚀`,
   );
 }
 
